@@ -82,7 +82,7 @@ fun Greeting(name: String) {
                     text = "name")
             }
             OutlinedButton(onClick = { expanded = !expanded}) {
-                Text(if (expanded) "Show less" else "Show more")
+                Text(if (expanded) "Mostrar menos" else "Mostrar mas")
             }
         }
     }
